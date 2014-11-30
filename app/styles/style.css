@@ -2,6 +2,37 @@ body {
 	
 }
 
+#splash {
+    background-color: #023750;
+    background-image: url(../images/rallypoint.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: -60px; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    z-index: 99999;
+}
+
+#coords p {
+	margin-top: 480px;
+	font-family: 'Gruppo', cursive;
+	color: white;
+	font-size: 30px;
+}
+
+#rallypoint p {
+	font-family: 'Six Caps', sans-serif;
+	color: #EF0456;
+	font-size: 80px;
+}
+
+#tagline p {
+	font-family: 'Gruppo', cursive;
+	color: white;
+	font-size: 30px;
+}
 .map_area {
 	background-color: #023750;
 	padding: 30px;
